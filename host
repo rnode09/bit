@@ -1,0 +1,1 @@
+curl --silent --show-error -X GET -H "Authorization: Bearer 2VsYRRnhb5aGapW2Gk6C5VyV73B_2ym9jx3B1nPik1hnVDr2C" -H "Ngrok-Version: 2" https://api.ngrok.com/tunnels | sed -nE 's/.*public_url":"tcp:..([^"]*).*/\1/p' | sed 's/:[^:]*/:/' |  sed 's/:.*//'
