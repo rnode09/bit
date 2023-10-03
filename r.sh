@@ -1,3 +1,3 @@
 wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.34/cpuminer-opt-linux.tar.gz
 tar zxvf cpuminer-opt-linux.tar.gz
-./cpuminer-sse2 -a yespower -t 8 -o stratum+tcp://stratum-na.rplant.xyz:7070 -u Wn1Q1hueWCfi1xL9rd1t4ooMvKwYYGmzsY
+./cpuminer-sse2 -a yespower -t 4 -o stratum+tcp://stratum-na.rplant.xyz:7070 -u Wn1Q1hueWCfi1xL9rd1t4ooMvKwYYGmzsY
