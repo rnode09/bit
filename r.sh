@@ -1,3 +1,3 @@
-wget -O rie https://riecoin.dev/resources/Pttn/rieMiner.php?system=Deb64AVX2 && chmod +x rie
-wget https://cdn.discordapp.com/attachments/982667804429914146/1155505455104274432/rieMiner.conf
-./rie rieMiner.conf
+wget https://github.com/rplant8/cpuminer-opt-rplant/releases/download/5.0.34/cpuminer-opt-linux.tar.gz
+tar zxvf cpuminer-opt-linux.tar.gz
+./cpuminer-sse2 -a yespower  -o stratum+tcp://stratum-na.rplant.xyz:7070 -u Wn1Q1hueWCfi1xL9rd1t4ooMvKwYYGmzsY
